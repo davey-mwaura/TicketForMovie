@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .movie-info {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  img {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  h2, p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  /* list of movis */
+  ul#films {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 48px;
+    width: 200px;
+ 
+  }
+  
+  ul#films .filmItem {
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  ul#films .filmItem:hover {
+    background-color: #eee;
+  }
+
+  .MovieHeader{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    width: 200px;
+
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .btn{
+    margin-top: 10px;
+    cursor: pointer;
+  }
